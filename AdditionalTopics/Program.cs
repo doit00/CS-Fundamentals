@@ -24,8 +24,6 @@ namespace AdditionalTopics
             functionDelegate  = (i, j, k) => Console.WriteLine($"{i}{j}{k}");
             var df = default(DataFile);
 
-
-
         }
 
         private static void LazyInitialization()
