@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Demos
 {
@@ -13,9 +10,7 @@ namespace Demos
         static void Main(string[] args)
         {
             FileInfoLinq();
-
             ProcessQuery();
-
             SimpleNumbersLinq();
 
         }
@@ -23,9 +18,13 @@ namespace Demos
         private static void SimpleNumbersLinq()
         {
             var AllNums = Enumerable.Range(1, 10);
+
+            //Extension method Where:
             var qEven = AllNums.Where(n => n % 2 == 0);
             var qOdd = AllNums.Where(n => n % 2 == 1);
 
+            //Extension method Sum
+            //public static int Sum(this IEnumerable<int> source)
             var sumEven = qEven.Sum();
             var sumOdd = qOdd.Sum();
 
