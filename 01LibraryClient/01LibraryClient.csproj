@@ -45,9 +45,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\00ToolsLibrary\00ToolsLibrary.csproj">
       <Project>{244a86c8-436a-49a8-9c8e-ba22d3e819fa}</Project>
       <Name>00ToolsLibrary</Name>
