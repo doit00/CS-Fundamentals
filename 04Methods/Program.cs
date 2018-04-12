@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Demos
 {
@@ -13,17 +9,14 @@ namespace Demos
        public static void DateOps()
         {
             Program.GetDaysToDate(DateTime.Today);
-
         }
 
         public void GetDate()
         {
-            
         }
-
     }
 
-    public delegate void LogMethod(string messageToLog);
+   public delegate void LogMethod(string messageToLog);
    public class Program
     {
         static void Main(string[] args)
@@ -45,14 +38,10 @@ namespace Demos
                     log += (m) => {
                         Console.WriteLine("{0}:{1}", DateTime.Now, m);
                     };
-
-
-
             log("message");
             log("message");
             log("message");
             log("message");
-
 
             int count = 25;
             int sum = 428;
@@ -65,25 +54,19 @@ namespace Demos
             //Func<int, int, double> -- built-in
             //delegate double AvgDelegate(int count, int sum);  user defined
             average = avg2(count, sum);
-
-
         }
-
         private static double Avg(int count, int sum)
         {
             return (double)sum / count;
         }
-
         private static void LogToFile(string message)
         {
             File.AppendAllText("log.txt", message);
         }
-
         private static void LogToConsole(string message)
         {
             Console.WriteLine(message);
         }
-
         private static void RefOutParams()
         {
             int x = 10;
@@ -101,7 +84,6 @@ namespace Demos
             int w;
             bool success = int.TryParse("12321", out w);
         }
-
         private static bool IsEven(int x, out int remainder)
         {
             int r = x % 2;

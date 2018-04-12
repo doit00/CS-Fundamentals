@@ -11,7 +11,7 @@ namespace Demos
             Car fiat = new Car();
             Console.WriteLine(ferrari.Color);
 
-            //CarsArray();
+            CarsArray();
 
         }
 

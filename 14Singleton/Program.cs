@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Demos
+﻿namespace Demos
 {
     class Program
     {
@@ -23,11 +17,8 @@ namespace Demos
         }
         public static MainConfigFile Get()
         {
-
             return mainConfig;
         }
-
-
     }
 
 }

@@ -1,4 +1,4 @@
-﻿namespace _05Delegates
+﻿namespace Demos
 {
     partial class Form1
     {
