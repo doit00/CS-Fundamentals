@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12ConferenceRoomsLibrary", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12ConferenceRoomsLibraryTests", "12ConferenceRoomsLibraryTests\12ConferenceRoomsLibraryTests.csproj", "{59708A99-BB78-4548-8464-0041881550DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14Singleton", "14Singleton\14Singleton.csproj", "{4CA240FB-1DCC-4999-ACDC-E36606FEB3BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{59708A99-BB78-4548-8464-0041881550DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59708A99-BB78-4548-8464-0041881550DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59708A99-BB78-4548-8464-0041881550DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA240FB-1DCC-4999-ACDC-E36606FEB3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA240FB-1DCC-4999-ACDC-E36606FEB3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA240FB-1DCC-4999-ACDC-E36606FEB3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA240FB-1DCC-4999-ACDC-E36606FEB3BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
