@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12ConferenceRoomsLibraryTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14Singleton", "14Singleton\14Singleton.csproj", "{4CA240FB-1DCC-4999-ACDC-E36606FEB3BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15PreprocessorDirectives", "15PreprocessorDirectives\15PreprocessorDirectives.csproj", "{6A11EB3A-F386-47E7-8A8A-6748B621C0F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{4CA240FB-1DCC-4999-ACDC-E36606FEB3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CA240FB-1DCC-4999-ACDC-E36606FEB3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CA240FB-1DCC-4999-ACDC-E36606FEB3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A11EB3A-F386-47E7-8A8A-6748B621C0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A11EB3A-F386-47E7-8A8A-6748B621C0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A11EB3A-F386-47E7-8A8A-6748B621C0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A11EB3A-F386-47E7-8A8A-6748B621C0F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
